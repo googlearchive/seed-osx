@@ -1,4 +1,4 @@
-osx + Firebase Seed App
+OSX + Firebase Seed App
 =========================
 
 This is a seed application to help you get started building [OSX](https://developer.apple.com/ios) apps in Objective-C with Firebase. If you don't already have a Firebase account, [sign up for free](https://www.firebase.com/signup/) today!
@@ -30,7 +30,7 @@ Once `Seed OSX.xcworkspace` has been opened, press `cmd + r` to run your appplic
 
 This app makes use of Firebase's [email & password authentication](https://www.firebase.com/docs/web/guide/login/password.html). To enable email & password auth, navigate to the "Login & Auth" tab in your Firebase app dashboard and select "Enable Email & Password Authentication".
 
-Once it's enabled, the `toggleAuth` and `authOrCreateUser: password:` methods will log users in, log users out, and create a user if one needs to be created. Additionally, an Firebase is observing the auth state and will update that state with the current user's email address in the title of the `UINavigationController`.
+Once it's enabled, the `toggleAuth` and `authOrCreateUser: password:` methods will log users in, log users out, and create a user if one needs to be created. Additionally, an Firebase is observing the auth state and will update that state with the current user's email address in the title of the `NSWindow`.
 
 Firebase also supports authentication with Facebook, Twitter, GitHub, Google, anonymous auth, and custom authentication. [Check out the docs](https://www.firebase.com/docs/ios/guide/user-auth.html) on user authentication for details on these authentication methods.
 
